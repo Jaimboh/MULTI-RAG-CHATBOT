@@ -1,13 +1,12 @@
 langchain
 langchain-community
-chromadb
-unstructured
-sentence-transformers
 unstructured[pdf]
 unstructured[doc]
-chromadb
 langchain-groq
 python-dotenv
 streamlit
 pandas
 numpy
+psycopg2
+langchain_openai
+pgvector

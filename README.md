@@ -42,7 +42,7 @@ conda activate multirag
 
 ### 3. Install required packages
 ```bash
-pip insall -r requirements.txt
+pip install -r requirements.txt
 ```
 ### 4. Run the application
 ```bash

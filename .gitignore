@@ -129,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Data/image_data
 
 # Spyder project settings
 .spyderproject

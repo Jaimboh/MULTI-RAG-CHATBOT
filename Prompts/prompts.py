@@ -6,14 +6,12 @@ to help retrieve rows from the DataFrame for analysis.
 **Data Structure Overview:**
 - The dataset is stored in the variable `df` and contains the following columns:
   - `description`: Text field describing the product.
-  - `img`: Object field storing image URLs.
   - `categoryName`: Category name to which the product belongs.
   - `productID`: Unique identifier for each product.
   - `categoryID`: Unique identifier for each category.
   - `stock`: Current stock level of the product.
   - `price`: Integer field representing the product's price.
   - `nutritions`: Nutritional information for each product.
-  - `images`: Additional image URLs related to the product.
   - `name`: Product name.
 
 **Your Task:**
