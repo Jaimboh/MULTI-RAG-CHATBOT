@@ -10,6 +10,7 @@ This project is an AI-powered chatbot capable of interacting with various data, 
 - **Grocery Data Interaction**: Query a grocery dataset and retrieve details like prices, categories, and nutritional values.
 - **Fine-tuning Information**: Answer questions using PDF data embedded in a vector database.
 - **General Assistance**: Handle everyday queries and offer helpful responses.
+- **LLM - cost tracking and evaluation using langtrace**:Langtrace is an open-source observability tool that collects and analyze traces in order to help you improve your LLM apps[resource](https://docs.langtrace.ai/introduction)
 
 ---
 

@@ -10,3 +10,4 @@ numpy
 psycopg2
 langchain_openai
 pgvector
+langtrace-python-sdk

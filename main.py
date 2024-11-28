@@ -1,6 +1,7 @@
 import re
 import streamlit as st
 import pandas as pd
+from langtrace_python_sdk import langtrace
 from langchain_groq.chat_models import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
@@ -18,6 +19,9 @@ warnings.filterwarnings("ignore")
 
 # Get settings
 settings = get_settings()
+
+#langtrace configuration
+langtrace.init(api_key = settings.langtrace.api_key)
 
 #Model Configuration
 llm = ChatGroq(model_name=settings.groq.default_model, api_key=settings.groq.api_key)

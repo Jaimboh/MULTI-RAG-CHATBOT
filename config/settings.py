@@ -31,6 +31,9 @@ class GroqSettings(LLMSettings):
     """Groq-specific settings extending LLMSettings."""
     api_key: str = Field(default_factory=lambda: os.getenv("GROQ_API_KEY"))
     default_model: str = Field(default="llama-3.1-70b-versatile")
+class LangTraceSettings(LLMSettings):
+    """Langtrace settings extending LLMSettings."""
+    api_key: str = Field(default_factory=lambda: os.getenv("LANGTRACE_API_KEY"))
 
 class DatabaseSettings(BaseSettings):
     """Database connection settings."""
@@ -52,6 +55,7 @@ class Settings(BaseSettings):
     """Main settings class combining all sub-settings."""
     openai: OpenAISettings = Field(default_factory=OpenAISettings)
     groq: GroqSettings = Field(default_factory=GroqSettings)
+    langtrace: LangTraceSettings = Field(default_factory=LangTraceSettings)
     database: DatabaseSettings = Field(default_factory=DatabaseSettings)
     vector_store: VectorStoreSettings = Field(default_factory=VectorStoreSettings)
 
