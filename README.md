@@ -50,3 +50,12 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+---
+### Resources
+1.https://chat.notdiamond.ai/
+
+2.https://github.com/Not-Diamond/notdiamond-examples
+
+3.https://openrouter.ai/
+
+4.https://github.com/Scale3-Labs/langtrace
